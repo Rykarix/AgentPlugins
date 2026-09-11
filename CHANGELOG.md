@@ -7,5 +7,5 @@ and are versioned independently in their `plugin.json`.
 
 ### Added
 - Marketplace catalog at `.claude-plugin/marketplace.json`.
-- `plugins/developer-agent-plugin/` — first plugin.
+- `plugins/developer-agent/` — first plugin.
 - `templates/plugin-template/` for scaffolding additional plugins.

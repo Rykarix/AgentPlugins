@@ -20,6 +20,20 @@
                 "skills",
                 "mcp"
             ]
+        },
+        {
+            "name": "standards",
+            "source": "./plugins/standards",
+            "description": "Personal standards for the developer agent. These are oppinionated documents designed to be completely decoupled from the agent for ease of use.",
+            "version": "0.1.0",
+            "license": "MIT",
+            "keywords": [
+                "copilot",
+                "vscode",
+                "agents",
+                "skills",
+                "mcp"
+            ]
         }
     ]
 }

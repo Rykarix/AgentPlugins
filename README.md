@@ -2,15 +2,25 @@
 
 Collection of agent related stuff for various harnesses I use
 
+## Requirements & Suggested settings
+
+- uv (for running hooks)
+- 
+
 ## Installing
 
 Add this repo as a marketplace in VS Code `settings.json`:
 
 ```jsonc
-"chat.plugins.marketplaces": ["TODO-owner/TODO-repo"]
+"chat.plugins.marketplaces": ["Rykarix/AgentPlugins"]
 ```
 
 Then browse and install individual plugins via `@agentPlugins` in the Extensions view.
+
+## The intent
+- Create an agent that does things efficiently
+- Standards decoupled from the agent for ease of use & to demonstrate an oppinionated approach on how to build agents.
+
 
 ## Local development
 
@@ -18,15 +28,9 @@ Point VS Code at plugin folders directly — one entry per plugin, no marketplac
 
 ```jsonc
 "chat.pluginLocations": {
-  "c:\\path\\to\\this\\repo\\plugins\\developer-agent-plugin": true
+  "c:\\path\\to\\this\\repo\\plugins\\developer-agent": true
 }
 ```
-
-## Adding a plugin
-
-See [`plugins/README.md`](plugins/README.md). Short version: copy `templates/plugin-template`
-into `plugins/<name>/`, fill in its `plugin.json`, and add an entry to
-`.claude-plugin/marketplace.json` with `"source": "./plugins/<name>"`.
 
 ## Reference
 
