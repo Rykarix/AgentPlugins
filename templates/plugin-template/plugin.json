@@ -1,0 +1,17 @@
+{
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "plugin-template",
+    "version": "0.1.0",
+    "description": "TODO: one-line description of what this plugin provides",
+    "author": {
+        "name": "TODO",
+        "email": "TODO@example.com",
+        "url": "https://example.com"
+    },
+    "repository": "https://github.com/TODO/developer-agent-plugins",
+    "license": "MIT",
+    "keywords": [],
+    "extensions": {
+        "com.github.copilot": {}
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"hooks": {
+		"preToolUse": [
+			{
+				"type": "command",
+				"bash": "uv run --script \"${PLUGIN_ROOT}/com.github.copilot/scripts/block-commands-with-tools.py\"",
+				"powershell": "uv run --script \"${PLUGIN_ROOT}\\com.github.copilot\\scripts\\block-commands-with-tools.py\""
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+    "name": "rykarix",
+    "owner": {
+        "name": "rykarix",
+        "email": "8267553+Rykarix@users.noreply.github.com"
+    },
+    "description": "Make agents do efficient things.",
+    "version": "0.1.0",
+    "plugins": [
+        {
+            "name": "developer-agent",
+            "source": "./plugins/developer-agent",
+            "description": "Boilerplate developer agent with instructions on how to perform tasks efficiently.",
+            "version": "0.1.0",
+            "license": "MIT",
+            "keywords": [
+                "copilot",
+                "vscode",
+                "agents",
+                "skills",
+                "mcp"
+            ]
+        }
+    ]
+}
