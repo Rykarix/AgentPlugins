@@ -1,0 +1,12 @@
+{
+    "chat.plugins.marketplaces": [
+        "Rykarix/AgentPlugins"
+    ],
+    "github.copilot.chat.agentDebugLog.fileLogging.enabled": true, // Enables 'Show Agent Debug Logs'
+    "github.copilot.chat.skillTool.enabled": true, // Invoke skills using special tool instead of 'Read'. (Proper usage aka actually accounts for frontmatter properly instead of dogfooding the entire SKILL.md into the context window like idiots... - dunno if they changed this in the default behavior lately ??)
+    "github.copilot.chat.codeGeneration.useInstructionFiles": false, // This system does NOT use OR recommend using .github/copilot-instructions.md
+    "github.copilot.chat.omitBaseAgentInstructions": true,
+    "chat.useAgentsMdFile": false, // This system does NOT use OR recommend using AGENTS.md
+    "chat.useNestedAgentsMdFiles": false,
+    "chat.useClaudeMdFile": false // This system does NOT use OR recommend using CLAUDE.md
+}

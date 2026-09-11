@@ -34,6 +34,20 @@
                 "skills",
                 "mcp"
             ]
+        },
+        {
+            "name": "skills-library",
+            "source": "./plugins/skills-library",
+            "description": "Personal skills library - situational.",
+            "version": "0.1.0",
+            "license": "MIT",
+            "keywords": [
+                "copilot",
+                "vscode",
+                "agents",
+                "skills",
+                "mcp"
+            ]
         }
     ]
 }
